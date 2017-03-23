@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>co-feature-feed-test</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="build/style.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>The Latest</h1>
+        </header>
+        <div>
+            <ul id="feed-list" class="flex-grid">
+            </ul>
+        </div>
+    </div>
+    <script id="feed" type="text/template">
+        <li class="featured-item col">
+            <a class="link" href="{{href}}">
+              <span class="image" style="background-image: url('{{imageUrl}}')"></span>
+              <span class="category">{{category}}</span>
+              <span class="title">{{title}}</span>
+              <span class="description">{{description}}</span>
+            </a>
+        </li>
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.0/mustache.min.js"></script>
+    <script src="build/bundle.js"></script>
+
+
+</body>
+
+</html>
