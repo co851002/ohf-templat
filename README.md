@@ -2,7 +2,7 @@
 ###Installation
 ```
 Requires node
-clone or download repo and cd into co-feature-feed-test
+clone or download repo and cd into ohf-template
 
 1. Run
 
